@@ -1,0 +1,24 @@
+#ifndef MRUBY_Jansson_CLASSES_HEADER
+#define MRUBY_Jansson_CLASSES_HEADER
+
+#define BIND_JsonError_TYPE TRUE
+#define BIND_JsonError_INITIALIZE TRUE
+#define BIND_JsonError_line_FIELD_READER TRUE
+#define BIND_JsonError_line_FIELD_WRITER TRUE
+#define BIND_JsonError_column_FIELD_READER TRUE
+#define BIND_JsonError_column_FIELD_WRITER TRUE
+#define BIND_JsonError_position_FIELD_READER TRUE
+#define BIND_JsonError_position_FIELD_WRITER TRUE
+#define BIND_JsonError_source_FIELD_READER FALSE
+#define BIND_JsonError_source_FIELD_WRITER FALSE
+#define BIND_JsonError_text_FIELD_READER FALSE
+#define BIND_JsonError_text_FIELD_WRITER FALSE
+
+#define BIND_Json_TYPE TRUE
+#define BIND_Json_INITIALIZE TRUE
+#define BIND_Json_type_FIELD_READER TRUE
+#define BIND_Json_type_FIELD_WRITER TRUE
+#define BIND_Json_refcount_FIELD_READER TRUE
+#define BIND_Json_refcount_FIELD_WRITER TRUE
+
+#endif
